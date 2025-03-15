@@ -388,11 +388,34 @@
 
       <!-- section-4 -->
       <section class="section-prt">
-        <div class="container">
+        <div class="container portfolio-container">
           <h2 class="portfolio">Our Portfolio</h2>
           <ul class="portfolio-list">
             <li class="portfolio-item">
               <div class="overlay-container">
+                <picture>
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/desktop/app-desktop-1x.jpg 1x,
+                      ./images/desktop/app-desktop@2x.jpg
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/tablet/app-tablet-1x.jpg  1x,
+                      ./images/tablet/app-tablet-@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/mobile/app-1x.jpg  1x,
+                      ./images/mobile/app-@2x.jpg 2x
+                    "
+                  />
+                </picture>
                 <img
                   src="./images/banking-app.jpg"
                   alt="bank-app"
@@ -411,6 +434,29 @@
             </li>
             <li class="portfolio-item">
               <div class="overlay-container">
+                <picture>
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/desktop/payment-desktop-1x.jpg 1x,
+                      ./images/desktop/payment-desktop@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/tablet/payment-tablet-1x.jpg  1x,
+                      ./images/tablet/payment-tablet-@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(max-width: 767)"
+                    srcset="
+                      ./images/mobile/payment-1x.jpg 1x,
+                      ./images/mobile/payment@2x.jpg 2x
+                    "
+                  />
+                </picture>
                 <img
                   src="./images/cashless-payment.jpg"
                   alt="payment"
