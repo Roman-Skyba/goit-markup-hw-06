@@ -494,8 +494,10 @@
                   />
                   <source
                     media="(max-width: 767px)"
-                    srcset="./images/mobile/meditation-1x.jpg 1x"
-                    srcset="./images/meditation-@2x.jpg 2x"
+                    srcset="
+                      ./images/mobile/meditation-1x.jpg 1x,
+                      ./images/meditation-@2x.jpg       2x
+                    "
                   />
                   <img
                     src="./images/meditation-app.jpg"
@@ -532,7 +534,7 @@
                     "
                   />
                   <source
-                    media="(max-width: 767)"
+                    media="(max-width: 767px)"
                     srcset="
                       ./images/mobile/taxi-1x.jpg  1x,
                       ./images/mobile/taxi-@2x.jpg 2x
@@ -597,8 +599,10 @@
                 <picture>
                   <source
                     media="(min-width: 1158px)"
-                    srcset="./images/desktop/girl-desktop-1x.jpg 1px, 
-                    ./images/desktop/girl-desktop@2x.jpg 2px"
+                    srcset="
+                      ./images/desktop/girl-desktop-1x.jpg 1x,
+                      ./images/desktop/girl-desktop@2x.jpg 2x
+                    "
                   />
                   <source
                     media="(min-width: 768px)"
@@ -611,7 +615,7 @@
                     media="(max-width: 767px)"
                     srcset="
                       ./images/mobile/girl-1x.jpg 1x,
-                      ./images/mobile/girl-@2x.jpg 2px
+                      ./images/mobile/girl@2x.jpg 2x
                     "
                   />
                   <img
@@ -707,7 +711,7 @@
 
     <!--modal-box-->
 
-    <div class="backdrop is-open hidden">
+    <div class="backdrop is-open">
       <div class="modal-box">
         <button type="button" class="modal-btn icon-close">
           <svg class="modal-img" width="8" height="8">
